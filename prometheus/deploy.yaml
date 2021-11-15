@@ -28,7 +28,7 @@ spec:
               mountPath: /etc/prometheus/
             - name: prometheus-storage-volume
               mountPath: /prometheus/
-      serviceAccountName: monitoring       
+      serviceAccountName: temp-monitoring       
       volumes:
         - name: prometheus-config-volume
           configMap:
