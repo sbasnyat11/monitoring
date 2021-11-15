@@ -30,7 +30,7 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: tem-monitoring
-  namespace: monitoring
+  namespace: temp-monitoring
 ---
 apiVersion: v1
 kind: ServiceAccount
