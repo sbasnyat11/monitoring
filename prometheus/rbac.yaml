@@ -29,7 +29,7 @@ roleRef:
   name: prometheus
 subjects:
 - kind: ServiceAccount
-  name: tem-monitoring
+  name: monitoring
   namespace: temp-monitoring
 ---
 apiVersion: v1
